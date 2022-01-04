@@ -1,5 +1,5 @@
 Print Anagrams Together
-```
+```C++
 vector<vector<string> > Anagrams(vector<string>& string_list) {
         map<map<char,int>,vector<string>>m;
         for(string s : string_list)
