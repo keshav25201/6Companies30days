@@ -1,5 +1,6 @@
     int minSubArrayLen(int target, vector<int>& nums) {
         //lets try two pointer method
+        //realase when sum is greater than equal to target
         int n = nums.size();
         int ans = -1;
         int sum = 0;
